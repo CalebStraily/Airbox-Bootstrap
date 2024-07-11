@@ -1,0 +1,547 @@
+html,body
+{
+    overflow-x: hidden !important;
+}
+
+body
+{
+    background-color: #262336 !important;
+    color: rgba(255, 255, 255, 0.342) !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.header-container
+{
+    padding-top: 20px;
+}
+
+.header-container p
+{
+    padding-top: 20px;
+}
+
+.header-container ul
+{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+}
+
+.logo-name
+{
+    background: -webkit-linear-gradient(white, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.logo-box
+{
+    font-size: 33px;
+}
+
+.logo-provider
+{
+    color: #818181;
+}
+
+.header-container button
+{
+    all: unset;
+    display: inline;
+    font-size: 13px;
+    padding-right: 5px;
+    font-size: 17px;
+}
+
+.mobile-nav-links ul
+{
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-bottom-row
+{
+    padding-left: 43px;
+    padding-bottom: 20px;
+}
+
+.website-motto
+{
+    border-top: solid #ffffff1a;
+    padding-top: 20px;
+    padding-bottom: 130px;
+    text-align: center;
+}
+
+.motto-primary-font
+{
+    color: rgba(255, 255, 255, 0.753);
+    background: -webkit-linear-gradient(white, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.motto-secondary-font
+{
+    font-size: 40px;
+    color: white;
+}
+
+.website-motto button
+{
+    background: linear-gradient(#A8A1C6, #524e61);
+    color: white;
+    border-radius: 10px;
+    border-width: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.service-types
+{
+    background-color: #F29B66;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.service-types img
+{
+    padding-top: 20px;
+}
+
+.service-name
+{
+    line-height: 0.8;
+}
+
+.service-primary-font
+{
+    color: white;
+    font-size: 30px;
+}
+
+.service-secondary-font
+{
+    color: #DAD6D9;
+    font-size: 25px;
+}
+
+.service-subtext
+{
+    font-size: 20px;
+}
+
+.service-row
+{
+    padding-bottom: 20px;
+}
+
+.service-type-group
+{
+    border-top: solid #0000006c;
+}
+
+.subscription-plans
+{
+    background-color: #E8E8EA;
+    color: black;
+    text-align: center;
+}
+
+.subscription-plan-parent-row
+{
+    padding-top: 50px;
+}
+
+.top-chat-bubble
+{
+    background-color: #6F6C89;
+    color: rgb(214, 212, 212);
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 2px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.service-title
+{
+    color: rgba(255, 255, 255, 0.753);
+    background: -webkit-linear-gradient(white, rgb(139, 139, 139));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 39px;
+}
+
+.bottom-chat-bubble
+{
+    background-color: #6F6C89;
+    font-size: 35px;
+    padding: 20px;
+    color: rgb(233, 228, 228);
+}
+
+.down-triangle
+{
+	width: 0;
+	height: 0;
+	border-left: 28px solid transparent;
+	border-right: 28px solid transparent;
+	border-top: 28px solid #6F6C89;
+    margin: auto;
+    margin-top: -51px;
+    padding-bottom: 20px;
+    transform: translateZ(0);
+}
+
+.perMonth
+{
+    color: #E55D30;
+    -webkit-text-stroke-width: 0.02px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.features-table th
+{
+    color: #757272;
+    padding: 15px;
+    border: 1px solid #c2c1c1;
+    font-size: 11px;
+}
+
+.features-table tr:first-child th
+{
+    padding: 25px;
+}
+
+.features-table tr:nth-child(odd)
+{
+    background-color: #f5f5f5;
+}
+
+.features-table tr:nth-child(even)
+{
+    background-color: #faf3f3;
+}
+
+.features-table button
+{
+    background: linear-gradient(#F28C55, #E55D30);
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    border-width: 0;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.maxi-hosting-column
+{
+    padding-bottom: 50px;
+}
+
+.footer-container h2
+{
+    color: rgba(255, 255, 255, 0.753);
+    background: -webkit-linear-gradient(white, rgb(94, 91, 91));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+}
+
+.footer-parent-row
+{
+    padding-left: 95px;
+    border-top: solid #ffffff1a;
+}
+
+.footer-rows 
+{
+    padding-top: 40px;
+}
+
+.styled-list
+{   
+    list-style-type: disc;
+    color: white;
+    font-size: 20px;
+}
+
+.styled-list li::marker
+{
+    color: orange;
+}
+
+.footer-subtext
+{
+    font-size: 20px;
+    color: rgb(194, 192, 192);
+}
+
+.footer-container button
+{
+    background: linear-gradient(#F28C55, #E55D30);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    width: auto;
+    height: 40px;
+    border-width: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.watermarks
+{
+    background-color: #332e40;
+}
+
+.footer-logo
+{
+    height: 125px;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.social-links
+{
+    background-color: #262336;
+    color: rgba(184, 182, 182, 0.616);
+    padding: 15px;
+    margin-top: 0px;
+    background-color: #201F26;
+}
+
+.footer-company-name
+{
+    padding-top: 10px;
+    line-height: 15px;
+}
+
+.company-affix
+{
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 18px;
+}
+
+.hosting-provider-subtext
+{
+    font-size: 12px;
+}
+
+.copyright
+{
+    font-size: 12px;
+    margin-top: 29px;
+}
+
+.social-links ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+
+.social-links button
+{
+    all: unset;
+}
+
+.social-links-mobile
+{
+    background-color: #201F26;
+    color: rgba(184, 182, 182, 0.616);
+    padding-bottom: 40px;
+    margin-top: 0px;
+    
+}
+
+.social-links-mobile ul
+{
+    list-style-type: none;
+    display: grid;
+    justify-content: center;
+}
+
+.footer-links
+{
+    background-color: #201F26;
+}
+
+.footer-links ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-links li
+{
+    flex: 1;
+}
+
+.footer-links button
+{
+    all: unset;
+}
+
+@media (min-width: 1200px)
+{
+    .header-container
+    {
+        margin-bottom: 40px;
+    }
+
+    .header-container ul
+    {
+        justify-content: left;
+    }
+
+    .header-container img
+    {
+        width: auto;
+        height: 100px;
+    }
+
+    .browser-nav-links
+    {
+        padding-top: 70px;
+    }
+    
+    .browser-nav-links ul
+    {
+        list-style-type: none;
+        display: flex;
+        justify-content: right;
+    }
+
+    .browser-nav-links li
+    {
+        margin-left: 40px;
+    }
+
+    .motto-primary-font
+    {
+        font-size: 48px;
+    }
+
+    .motto-secondary-font
+    {
+        font-size: 70px;
+    }
+
+    .motto-subtext
+    {
+        font-size: 25px;
+    }
+
+    .website-motto button
+    {
+        background: linear-gradient(#A8A1C6, #524e61);
+        color: white;
+        border-radius: 10px;
+        border-width: 0;
+        margin-top: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        font-size: 25px;
+    }
+
+    .service-types
+    {
+        display: flex;
+        margin-bottom: -10px;
+    }
+
+    .service-types-parent-row
+    {
+        flex: 1;
+        justify-content: center;
+    }
+
+    .service-type-group
+    {
+        border-top: none;
+    }
+
+    .subscription-plans
+    {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .subscription-plan-parent-row
+    {
+        flex: 1;
+        margin-left: 4%;
+        margin-right: 4%;
+        padding-top: 0;
+    }
+
+    .maxi-hosting-column
+    {
+        padding-bottom: 0;
+    }
+
+    .footer-container
+    {
+        display: flex;
+    }
+
+    .footer-parent-row
+    {
+        flex: 1;
+        border-top: none;
+    }
+
+    .watermarks
+    {
+        display: flex;
+    }
+
+    .watermark-parent-row
+    {
+        flex: 1;
+    }
+
+    .footer-logo
+    {
+        width: auto;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .social-links-company-name
+    {
+        padding-top: 60px;
+        padding-left: 40px;
+        line-height: 20px;
+    }
+
+    .social-links-copyright
+    {
+        padding-top: 60px;
+        padding-left: 40px;
+    }
+
+    .footer-links
+    {
+        margin-bottom: -50px;
+    }
+
+    .copyright-links-list
+    {
+        padding-top: 60px;
+    }
+}
